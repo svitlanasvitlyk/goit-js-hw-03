@@ -1,5 +1,5 @@
 function slugify(title) {
-  return title.toLowercase().split(" ").join("-");
+  return title.toLowerCase().split(" ").join("-");
 }
 slugify();
 
